@@ -27,3 +27,4 @@ plot1 <- function() {
   hist(subsetdata$Global_active_power, col = "red", border = "black", main = "Global Active Power", xlab = "Global Active Power(kilowats)", ylab = "Frequency")
   dev.off()
 }
+
